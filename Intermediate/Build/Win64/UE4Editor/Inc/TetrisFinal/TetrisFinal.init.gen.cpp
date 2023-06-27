@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeTetrisFinal_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x53107151,
-				0x0E80A229,
+				0xA9E7302D,
+				0xF80CD61B,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TetrisFinal.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{79AB5C9F-353B-4DB0-90BA-1708CD2EA980}</UniqueIdentifier>
+      <UniqueIdentifier>{352EF603-3147-4AD0-908B-02F80C6D310E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TetrisFinal.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\TetrisFinalEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{52EA8FA3-FEC1-41F2-962A-310D3BD386D3}</UniqueIdentifier>
+      <UniqueIdentifier>{17901B0B-E953-4A9B-99BE-FB16D05D4F28}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +26,26 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TetrisFinal">
-      <UniqueIdentifier>{FF842BCD-D3F7-43D9-A7B2-F53A703E50B6}</UniqueIdentifier>
+      <UniqueIdentifier>{807D9304-592D-4CB7-A7B7-BDD04C899330}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TetrisFinal\Block.cpp">
+      <Filter>Source\TetrisFinal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisFinal\Block.h">
+      <Filter>Source\TetrisFinal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisFinal\Board.cpp">
+      <Filter>Source\TetrisFinal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisFinal\Board.h">
+      <Filter>Source\TetrisFinal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisFinal\Piece.cpp">
+      <Filter>Source\TetrisFinal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisFinal\Piece.h">
+      <Filter>Source\TetrisFinal</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TetrisFinal\TetrisFinal.Build.cs">
       <Filter>Source\TetrisFinal</Filter>
     </None>

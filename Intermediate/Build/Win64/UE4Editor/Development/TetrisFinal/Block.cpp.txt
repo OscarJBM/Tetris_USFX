@@ -1,0 +1,3 @@
+C:\Users\blanc\Documents\Unreal Projects\TetrisFinal\Intermediate\Build\Win64\UE4Editor\Development\TetrisFinal\Definitions.TetrisFinal.h
+C:\Users\blanc\Documents\Unreal Projects\TetrisFinal\Source\TetrisFinal\Block.h
+C:\Users\blanc\Documents\Unreal Projects\TetrisFinal\Intermediate\Build\Win64\UE4Editor\Inc\TetrisFinal\Block.generated.h
