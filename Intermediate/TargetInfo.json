@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TetrisFinal",
+			"Path": "C:\\Users\\blanc\\Documents\\Unreal Projects\\TetrisFinal\\Source\\TetrisFinal.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TetrisFinalEditor",
+			"Path": "C:\\Users\\blanc\\Documents\\Unreal Projects\\TetrisFinal\\Source\\TetrisFinalEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

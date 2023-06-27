@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\blanc\\Documents\\Unreal Projects\\TetrisFinal\\Source\\TetrisFinal\\TetrisFinal.Build.cs",
+		"C:\\Users\\blanc\\Documents\\Unreal Projects\\TetrisFinal\\Source\\TetrisFinal.Target.cs",
+		"C:\\Users\\blanc\\Documents\\Unreal Projects\\TetrisFinal\\Source\\TetrisFinalEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
