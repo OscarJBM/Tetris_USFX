@@ -72,8 +72,9 @@ void APiece::SpawnBlocks()
         {{-10.0, -10.0}, {0.0, -10.0}, {0.0, 0.0}, {10.0, 0.0}},
         {{-10.0, 0.0}, {0.0, 0.0}, {0.0, 10.0}, {10.0, 0.0}},
         {{-10.0, 0.0}, {0.0, 0.0}, {0.0, -10.0}, {10.0, -10.0}},
-        //{{-20.0, 10.0}, {-10.0, 0.0}, {0.0, 10.0}, {10.0, 0.0}},
+
     };
+
     const int Index = FMath::RandRange(0, Shapes.size() - 1);
     UE_LOG(LogTemp, Warning, TEXT("index=%d"), Index);
     const std::vector<std::pair<float, float>>& YZs = Shapes[Index];
@@ -92,11 +93,6 @@ void APiece::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
     UE_LOG(LogTemp, Warning, TEXT("Piezas eliminadas"));
 }
-
-//void APiece::Dismiss()
-//{
-//    Blocks.Empty();
-//}
 
 void APiece::DrawDebugLines()
 {
@@ -129,11 +125,6 @@ void APiece::TestRotate()
         }*/
     }
 }
-
-//void APiece::EndPlay(const EEndPlayReason::Type EndPlayReason)
-//{
-//    UE_LOG(LogTemp, Warning, TEXT("Pieces Deleted"));
-//}
 
 void APiece::Dismiss()
 {

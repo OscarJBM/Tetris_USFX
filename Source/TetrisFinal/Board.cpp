@@ -85,7 +85,6 @@ void ABoard::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
     PlayerInputComponent->BindAction("MoveRight", IE_Pressed, this, &ABoard::MoveRight);
     PlayerInputComponent->BindAction("MoveDownToEnd", IE_Pressed, this, &ABoard::MoveDownToEnd);
     PlayerInputComponent->BindAction("NewPiece", IE_Pressed, this, &ABoard::NewPiece);
-    //PlayerInputComponent->BindAction("CheckLine", IE_Pressed, this, &ABoard::CheckLine);
 
 }
 

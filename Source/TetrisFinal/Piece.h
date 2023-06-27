@@ -44,6 +44,8 @@ public:
 private:
 
 	TArray<ABlock*> Blocks;
+	//Factory Method
+	//virtual TArray<FVector> GetBlockCoordinate() const = 0;
 
 public:
 	void SpawnBlocks();

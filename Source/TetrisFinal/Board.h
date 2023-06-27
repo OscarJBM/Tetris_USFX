@@ -37,7 +37,6 @@ public:
 	void NewPiece();
 	void CheckLine();
 	void MoveDownToEnd();
-	//void DesintegrateZone(const FVector& Center, const FVector& Extent);
 
 private:
 	enum PieceStatus { PS_NOT_INITED, PS_MOVING, PS_GOT_BOTTOM };
